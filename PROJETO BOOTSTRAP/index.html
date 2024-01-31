@@ -21,14 +21,49 @@
                         <li class="nav-item"><a class="nav-link active"  href="#sobre">Sobre</a></li>
                         <li class="nav-item"><a class="nav-link active"  href="#produtos">Produtos</a></li>
                         <li class="nav-item"><a class="nav-link active"  href="#contato">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="./cadastro.html">Meu cadastro</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-
-
+        
+        
     </header>
-
+    <section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/carrousel/carrousel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/carrousel/carrousel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/carrousel/carrousel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <div class="carousel-item active">
+                    <div class="ratio ratio-21x9">
+                        <img src="./images/carrousel/carrousel4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>   
+    </section>
+    
     <section id="sobre">
         <div class="container">
             <div class="row">
@@ -43,43 +78,43 @@
             </div>
         </div>
     </section>
-
+    
     <section id="produtos">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <h2>Produtos</h2>
-                        <div class="card">
-                            <img src="./images/modelocomcamisaverde.jpg" alt="Camisa Verde" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-text">Camisa Verde</h5>
-                                <p class="card-text">Uma linda camisa verde para você usar no dia a dia, levando esperança por onde passar.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
-                            </div>
+                    <div class="card">
+                        <img src="./images/modelocomcamisaverde.jpg" alt="Camisa Verde" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-text">Camisa Verde</h5>
+                            <p class="card-text">Uma linda camisa verde para você usar no dia a dia, levando esperança por onde passar.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">Ver Produto</a>
                         </div>
-
-                        <div class="card">
-                            <img src="./images/modelocomcamisaazul.jpg" alt="Camisa Azul" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-text">Camisa Azul</h5>
-                                <p class="card-text">Uma camisa azul para usar no dia a dia, lembrando ao mundo a cor do céu e oceans.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
-                            </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/modelocomcamisaazul.jpg" alt="Camisa Azul" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-text">Camisa Azul</h5>
+                            <p class="card-text">Uma camisa azul para usar no dia a dia, lembrando ao mundo a cor do céu e oceans.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">Ver Produto</a>
                         </div>
-
-                        <div class="card">
-                            <img src="./images/modeloscomcamisabranca.jpg" alt="Camisa Branca" class="img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-text">Camisa Branca</h5>
-                                <p class="card-text">Uma camisa branca para usar no dia a dia, levando as pessoas a refletir sobre a Paz.</p>
-                                <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
-                            </div>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/modeloscomcamisabranca.jpg" alt="Camisa Branca" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-text">Camisa Branca</h5>
+                            <p class="card-text">Uma camisa branca para usar no dia a dia, levando as pessoas a refletir sobre a Paz.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">Ver Produto</a>
                         </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
+    
     <section id="contato">
         <div class="container">
             <div class="row">
@@ -92,26 +127,26 @@
                         <div class="intup-group">
                             <input class="form-control" type="text" name="nome" placeholder="Digite seu nome">
                         </div>
-
+                        
                         <div class="intup-group">
                             <input class="form-control" type="text" name="email" placeholder="Digite seu e-mail">
                         </div>
-
+                        
                         <div class="input-group">
                             <textarea class="form-control" name="" rows="5"></textarea>
                         </div>
-
+                        
                         <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
-
+                        
                     </form>
-
+                    
                 </div>
             </div>
         </div>
-
+        
     </section>
-
-
+    
+    
     <div class="modal fade" id="modal-1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -144,7 +179,7 @@
                             </tr>
                         </tbody>
                     </table>
-
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
@@ -152,7 +187,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="modal fade" id="modal-2">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -192,7 +227,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="modal fade" id="modal-3">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -232,7 +267,15 @@
             </div>
         </div>
     </div>
-
+    
+    
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleFade')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 5000
+        })
+    </script>
 </body>
 </html>

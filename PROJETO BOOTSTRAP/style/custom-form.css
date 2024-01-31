@@ -1,0 +1,18 @@
+textarea.form-control {
+    width: 100% !important;
+    display: block;
+}
+
+#dados-pessoais,
+#dados-endereco,
+#info-add {
+    font-size: 25px;
+}
+
+#titlecad {
+    font-size: 35px;
+}
+
+div {
+    color: #475029;
+}

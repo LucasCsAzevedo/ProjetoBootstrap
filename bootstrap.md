@@ -76,5 +76,21 @@ html {
 
 ```
 
-# Aula 2 - Visão Geral
+### MÓDULO 1
+
+## Componentes
+- Blocos / Modelos / Templates reutilizáveis https://getbootstrap.com/docs/5.1/components
+
+## Helpers
+- Funções básicas
+- Incrementos
+- Ajustes https://getbootstrap.com/docs/5.1/helpers
+
+## Font Awesome
+- Biblioteca de ícones https://fontawesome.com/start/
+
+# Exercicio
+- Incluir carousel na home antes de sobre
+- Completar o cadastro, tornando os campos obrigatórios
+- Incluir campos: bairro, complemento e telefone
 

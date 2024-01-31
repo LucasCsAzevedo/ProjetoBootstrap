@@ -1,0 +1,2 @@
+Para componentes mais complexos do Bootstrap tenho que complementar com Java no código HTML, exemplo é o Carousel. Essas informações ficam na Documentação do Bootstrap, havendo necessidade de usar Java vai aparecer lá
+
